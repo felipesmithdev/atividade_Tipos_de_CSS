@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula CSS - 1</title>
+
+<style>
+    .card {
+        width:500px;
+        height: fit-content;
+        background-color: aliceblue;
+        border: solid 2px navy;
+        margin: 20px;
+        padding: 40px
+    }
+    .border {
+        border-radius: 20px;
+    }
+
+    .icone1 {
+        width: 100px;
+        height: 100px;
+        background-image: url('https://cdn-icons-png.flaticon.com/512/706/706830.png');
+        background-size: cover;
+    }
+    
+    .icone2 {
+        width: 100px;
+        height: 100px;
+        background-image: url('https://cdn-icons-png.flaticon.com/256/3681/3681928.png');
+        background-size: cover;
+    }
+
+    .text {
+        font-family: Arial;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    p {
+    font-size: 15px;
+    }
+
+    .main-color {
+        color: navy;
+    }
+    
+</style>
+
+</head>
+
+<body>
+
+	<div class="card border">
+
+		<div class="icone1 border"></div>
+
+		<div>
+			<h1 class="text title">
+				Meu nome é: <span class="main-color">Adriana</span>
+			</h1>
+
+			<p class="text">
+				Mensagem: <i class="main-color">A vida não é um morango!</i>
+			</p>
+		</div>
+	</div>
+
+	<div class="card border">
+
+		<div class="icone2 border"></div>
+
+		<div>
+			<h1 class="text title">
+				Meu nome é: <span class="main-color">Hugo</span>
+			</h1>
+
+			<p class="text">
+				Mensagem: <i class="main-color">Um dia é da caça, o outro é do caçador.</i>
+			</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
